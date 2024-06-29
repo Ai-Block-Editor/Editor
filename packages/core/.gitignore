@@ -7,16 +7,18 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-dist
 node_modules
+dist
 dist-ssr
 *.local
-.ossutil_checkpoint
-ossutil_output
-deps/
-aimp/
-/docs/.vitepress/dist/
-/docs/.vitepress/cache/
-/demos/vanilla-ts/dist/
 
-
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
