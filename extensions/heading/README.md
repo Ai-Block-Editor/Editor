@@ -1,0 +1,1 @@
+# @wc-editor/extension-heading

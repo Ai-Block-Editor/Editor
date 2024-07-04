@@ -1,0 +1,2 @@
+# @wc-editor/extension-image
+
