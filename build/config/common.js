@@ -32,14 +32,15 @@ function genCommonConf(format) {
       typescript({
         clean: true,
         tsconfig: path.resolve(__dirname, "./tsconfig.json"),
-        // tsconfigOverride: {
-        //   compilerOptions: {
-        //     declaration: true,
-        //     paths: {
-        //       "@tiptap/*": ["extensions/*/src"],
-        //     },
-        //   },
-        // },
+        tsconfigOverride: {
+          compilerOptions: {
+            declaration: true,
+            paths: {
+              "@tiptap/*": ["extensions/*/src"],
+            },
+          },
+        },
+        include: null,
       }),
       nodeResolve({
         browser: true, // 重要

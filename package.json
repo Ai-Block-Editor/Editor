@@ -27,6 +27,7 @@
   ],
   "scripts": {
     "dev": "vite",
+    "build:bold": "pnpm --filter @wc-editor/extension-bold run build",
     "dev:editor": "pnpm --filter @wc-editor/core run dev",
     "docs": "cross-env APP_BASE_PATH=/Ai-Block-Editor/ vitepress dev docs --port=8732",
     "build:docs": "vitepress build docs",
